@@ -37,4 +37,10 @@ return [
         'redirect' => env('GITHUB_CALLBACK_URL'),
     ],
 
+    'dribbble' => [
+        'client_id' => env('DRIBBBLE_CLIENT_ID'),
+        'client_secret' => env('DRIBBBLE_CLIENT_SECRET'),
+        'redirect' => env('DRIBBBLE_REDIRECT_URI')
+    ],
+
 ];
